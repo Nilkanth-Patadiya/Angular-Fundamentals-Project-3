@@ -1,0 +1,23 @@
+<div>
+    <br><br>
+  <h1>This is Employee List component </h1>
+  <table border="3px solid black" align="center">
+    <thead>
+      <tr>
+        <th>Employee No</th>
+        <th>Employee Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let k of elist">
+        <td>{{k.empno}}</td>
+        <td>{{k.empname}}</td>
+        <td>{{k.age}}</td>
+        <td >{{k.salary}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+</div>

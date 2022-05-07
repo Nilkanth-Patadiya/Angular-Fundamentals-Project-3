@@ -1,0 +1,27 @@
+<div>
+    <br><br>
+  <h1>This is AcnEmpList component </h1>
+  <table border="3px solid black" align="center">
+    <thead>
+      <tr>
+        <th>Employee No</th>
+        <th>Employee Name</th>
+        <th>Employee Phone</th>
+        <th>Employee City</th>
+        <th>Date of Joining</th>
+        <th>Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let k of elist2">
+        <td>{{k.empno}}</td>
+        <td>{{k.name}}</td>
+        <td>{{k.phone}}</td>
+        <td>{{k.city}}</td>
+        <td>{{k.doj}}</td>
+        <td >{{k.salary}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+</div>
